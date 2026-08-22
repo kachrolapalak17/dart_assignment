@@ -1,0 +1,14 @@
+import 'dart:io';
+int add(int a,int b)
+{
+  return a+b;
+}
+void main()
+{
+  stdout.write("enter first number:");
+  int f_no=int.parse(stdin.readLineSync()!);
+  stdout.write("enter second number:");
+  int s_no=int.parse(stdin.readLineSync()!);
+  stdout.write("addition is:${add(f_no,s_no)}");
+
+}
